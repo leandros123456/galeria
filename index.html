@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Galeria (HTML + CSS)</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="galeria" aria-label="Galeria de imagens">
+    <section class="viewer" aria-live="polite">
+      <img src="https://picsum.photos/id/1015/240/160" id="currImage">
+    </section>
+    <button id="botao-proximo" aria-label="Ir para a próxima imagem">&gt;</button>
+    <button id="botao-anterior" aria-label="Ir para a imagem anterior">&lt;</button>
+
+    <nav class="thumbs" aria-label="Miniaturas">
+      <a class="thumb" href="#img1" aria-label="Ver imagem 1">
+        <img class="preview" src="https://picsum.photos/id/1015/240/160" alt="">
+      </a>
+      <a class="thumb" href="#img2" aria-label="Ver imagem 2">
+        <img class="preview" src="https://i0.wp.com/travel55.co.uk/uploads/images/holidays/shearings/Switzerland/swiss-lake-summer.jpg" alt="">
+      </a>
+      <a class="thumb" href="#img3" aria-label="Ver imagem 3">
+        <img class="preview" src="https://simonde.com.br/wp-content/uploads/2021/08/interlaken-e-regiao-o-que-fazer-dicas-1200-1.jpg" alt="">
+      </a>
+      <a class="thumb" href="#img4" aria-label="Ver imagem 4">
+        <img class="preview" src="https://i0.wp.com/travel.com.br/wp-content/uploads/2021/08/suica-inter-3.jpg?resize=1200%2C627&ssl=1" alt="">
+      </a>
+      <a class="thumb" href="#img5" aria-label="Ver imagem 5">
+        <img class="preview" src="https://valecadaviagem.com/wp-content/uploads/2022/07/Switzerland-Zermatt-Swiss-Alps-mountains-snow-houses-night-lights_3840x2160-696x392.jpg.webp" alt="">
+      </a>
+    </nav>
+  </main>
+</body>
+</html>
